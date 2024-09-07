@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "NOP: Shortcut disabler",
+  "short_name": "NOP",
+  "description": "Shortcut disabler. NOP disables some of Google Chrome's shortcuts.",
+  "version": "0.1.0",
+  "homepage_url": "https://github.com/kumarstack55/chrome-extension-nop",
+  "permissions": [],
+  "commands": {
+    "command-nop01": { "description": "No operation #1" },
+    "command-nop02": { "description": "No operation #2" },
+    "command-nop03": { "description": "No operation #3" },
+    "command-nop04": { "description": "No operation #4" },
+    "command-nop05": { "description": "No operation #5" },
+    "command-nop06": { "description": "No operation #6" },
+    "command-nop07": { "description": "No operation #7" },
+    "command-nop08": { "description": "No operation #8" },
+    "command-nop09": { "description": "No operation #9" },
+    "command-nop10": { "description": "No operation #10" }
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
